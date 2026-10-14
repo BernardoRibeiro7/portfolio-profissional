@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "check": "node --check server.js && node --check api/contact.js && node --check lib/contact.js && node --check assets/js/main.js"
+    "build": "node build.js",
+    "check": "node --check server.js && node --check api/contact.js && node --check lib/contact.js && node --check assets/js/main.js && node --check build.js"
   },
   "engines": {
     "node": ">=18"
