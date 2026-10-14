@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-profissional-bernardo-machado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio profissional acadêmico de Bernardo Machado para o Laboratório 01 de DIAW - PUC Minas.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "check": "node --check server.js && node --check api/contact.js && node --check lib/contact.js && node --check assets/js/main.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

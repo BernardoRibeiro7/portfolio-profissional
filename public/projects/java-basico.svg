@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs><filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-opacity=".35"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071018"/><stop offset="1" stop-color="#10242b"/></linearGradient></defs>
+  <rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+  <g filter="url(#s)"><rect x="42" y="42" width="1116" height="666" rx="24" fill="#0c151e" stroke="#263846"/></g>
+  <rect x="42" y="42" width="1116" height="52" rx="24" fill="#111e29"/>
+  <rect x="42" y="72" width="1116" height="22" fill="#111e29"/>
+  <circle cx="70" cy="68" r="6" fill="#ff6e66"/><circle cx="92" cy="68" r="6" fill="#ffcc57"/><circle cx="114" cy="68" r="6" fill="#61d887"/>
+  <text x="146" y="73" fill="#a7b7c3" font-family="monospace" font-size="13">ProgMod_JavaBasico / src / TresNumeros.java</text>
+  <line x1="780" y1="94" x2="780" y2="708" stroke="#263846"/>
+  <rect x="74" y="120" width="154" height="34" rx="8" fill="#122330"/><text x="92" y="142" fill="#7ee2c6" font-family="monospace" font-size="13" font-weight="700">TresNumeros.java</text>
+  <g font-family="monospace" font-size="16">
+    <text x="74" y="195" fill="#8cb4ff">List&lt;Integer&gt; <tspan fill="#b9ff66">lerTresInteiros</tspan><tspan fill="#dbe7ec">() {</tspan></text>
+    <text x="104" y="228" fill="#dbe7ec">int quantidade = <tspan fill="#ca9cff">3</tspan>;</text>
+    <text x="104" y="261" fill="#dbe7ec">List&lt;Integer&gt; lista = <tspan fill="#8cb4ff">new</tspan> ArrayList&lt;&gt;(quantidade);</text>
+    <text x="104" y="294" fill="#8cb4ff">for <tspan fill="#dbe7ec">(int i = 0; i &lt; quantidade; i++) {</tspan></text>
+    <text x="136" y="327" fill="#dbe7ec">int valor = Integer.parseInt(</text>
+    <text x="168" y="360" fill="#dbe7ec">IO.readln(<tspan fill="#f2c879">"Digite um número inteiro positivo: "</tspan>));</text>
+    <text x="136" y="393" fill="#dbe7ec">lista.add(valor);</text>
+    <text x="104" y="426" fill="#dbe7ec">}</text>
+    <text x="104" y="459" fill="#dbe7ec">lista = <tspan fill="#b9ff66">organizarLista</tspan>(lista);</text>
+    <text x="104" y="492" fill="#8cb4ff">return <tspan fill="#dbe7ec">lista;</tspan></text>
+    <text x="74" y="525" fill="#dbe7ec">}</text>
+    <text x="74" y="580" fill="#8cb4ff">int <tspan fill="#b9ff66">produtoImpares</tspan><tspan fill="#dbe7ec">(List&lt;Integer&gt; lista) {</tspan></text>
+    <text x="104" y="613" fill="#dbe7ec">int produto = <tspan fill="#ca9cff">1</tspan>;</text>
+    <text x="104" y="646" fill="#6f8290">// percorre os ímpares no intervalo</text>
+    <text x="104" y="679" fill="#dbe7ec">...</text>
+  </g>
+  <text x="814" y="145" fill="#8ea2ae" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1">TERMINAL · EXECUÇÃO</text>
+  <g font-family="monospace" font-size="15">
+    <text x="814" y="190" fill="#7ee2c6">$ <tspan fill="#dce6e9">java TresNumeros.java</tspan></text>
+    <text x="814" y="228" fill="#dce6e9">Digite um número inteiro positivo: <tspan font-weight="700">2</tspan></text>
+    <text x="814" y="260" fill="#dce6e9">Digite um número inteiro positivo: <tspan font-weight="700">5</tspan></text>
+    <text x="814" y="292" fill="#dce6e9">Digite um número inteiro positivo: <tspan font-weight="700">9</tspan></text>
+    <text x="814" y="350" fill="#dce6e9">O produto dos ímpares entre 2 e 9 é</text>
+    <text x="814" y="378" fill="#b9ff66" font-weight="800">945.</text>
+    <text x="814" y="420" fill="#dce6e9">Divisíveis por 2 entre 5 e 9:</text>
+    <text x="814" y="452" fill="#dce6e9">1: 6</text><text x="814" y="484" fill="#dce6e9">2: 8</text>
+  </g>
+  <rect x="814" y="535" width="240" height="38" rx="19" fill="#122330" stroke="#263846"/><text x="934" y="559" text-anchor="middle" fill="#92a7b2" font-family="Arial,sans-serif" font-size="12">Java · listas · laços · métodos</text>
+  <text x="814" y="650" fill="#b9ff66" font-family="Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="-3">JAVA</text>
+  <text x="814" y="681" fill="#7e929e" font-family="Arial,sans-serif" font-size="13">Fundamentos aplicados em exercícios reais</text>
+</svg>

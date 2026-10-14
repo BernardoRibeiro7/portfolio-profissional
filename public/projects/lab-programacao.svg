@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <defs><filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-opacity=".35"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080e0a"/><stop offset="1" stop-color="#16211a"/></linearGradient></defs>
+  <rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+  <g filter="url(#s)"><rect x="42" y="42" width="1116" height="666" rx="24" fill="#111713" stroke="#2a332d"/></g>
+  <rect x="42" y="42" width="1116" height="52" rx="24" fill="#172019"/><rect x="42" y="72" width="1116" height="22" fill="#172019"/>
+  <circle cx="70" cy="68" r="6" fill="#ff6e66"/><circle cx="92" cy="68" r="6" fill="#ffcc57"/><circle cx="114" cy="68" r="6" fill="#61d887"/>
+  <text x="146" y="73" fill="#abb7ad" font-family="monospace" font-size="13">LAP1_PM_N2 · Programação Modular</text>
+  <line x1="410" y1="94" x2="410" y2="708" stroke="#2a332d"/>
+  <text x="74" y="145" fill="#b9ff66" font-family="Arial,sans-serif" font-size="22" font-weight="900">LAP1_PM_N2</text>
+  <text x="74" y="170" fill="#7f9083" font-family="Arial,sans-serif" font-size="12">Atividade pontuada em laboratório</text>
+  <g font-family="monospace" font-size="14"><text x="74" y="225" fill="#edf5ee">▾ src</text><text x="98" y="259" fill="#edf5ee" font-weight="700">├─ Produto.java</text><text x="98" y="293" fill="#aab6ac">├─ ProdutoTest.java</text><text x="98" y="327" fill="#aab6ac">├─ VendaDia.java</text><text x="98" y="361" fill="#aab6ac">└─ VendaDiaTest.java</text><text x="74" y="402" fill="#aab6ac">README.md</text></g>
+  <rect x="74" y="455" width="300" height="180" rx="16" fill="#080d09" stroke="#2c3930"/><text x="94" y="485" fill="#748579" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">EXEMPLO DE EXECUÇÃO</text>
+  <g font-family="monospace" font-size="13"><text x="94" y="520" fill="#b9ff66">$ <tspan fill="#d8e2d9">javac Produto.java Demo.java</tspan></text><text x="94" y="550" fill="#b9ff66">$ <tspan fill="#d8e2d9">java Demo</tspan></text><text x="94" y="584" fill="#d8e2d9">Mesa: R$ 141,60</text><text x="94" y="611" fill="#d8e2d9">Imposto: R$ 21,60</text></g>
+  <rect x="448" y="122" width="112" height="34" rx="8" fill="#1b281e"/><text x="504" y="144" text-anchor="middle" fill="#b9ff66" font-family="monospace" font-size="12" font-weight="700">Produto.java</text>
+  <g font-family="monospace" font-size="16">
+    <text x="448" y="205" fill="#91b7ff">public class <tspan fill="#dce7de">Produto {</tspan></text>
+    <text x="480" y="242" fill="#91b7ff">private <tspan fill="#dce7de">String descricao;</tspan></text>
+    <text x="480" y="276" fill="#91b7ff">private double <tspan fill="#dce7de">precoCusto;</tspan></text>
+    <text x="480" y="310" fill="#91b7ff">private double <tspan fill="#dce7de">margemLucro;</tspan></text>
+    <text x="480" y="344" fill="#91b7ff">private <tspan fill="#dce7de">String categoria;</tspan></text>
+    <text x="448" y="402" fill="#91b7ff">public double <tspan fill="#b9ff66">valorVenda</tspan><tspan fill="#dce7de">() {</tspan></text>
+    <text x="480" y="436" fill="#91b7ff">return <tspan fill="#dce7de">precoCusto + margemLucro + </tspan><tspan fill="#b9ff66">valorImposto</tspan><tspan fill="#dce7de">();</tspan></text>
+    <text x="448" y="470" fill="#dce7de">}</text>
+    <text x="448" y="528" fill="#91b7ff">public double <tspan fill="#b9ff66">valorImposto</tspan><tspan fill="#dce7de">() {</tspan></text>
+    <text x="480" y="562" fill="#91b7ff">return <tspan fill="#dce7de">(precoCusto + margemLucro)</tspan></text>
+    <text x="528" y="596" fill="#dce7de">* imposto.get(categoria.toUpperCase());</text>
+    <text x="448" y="630" fill="#dce7de">}</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="11"><rect x="448" y="660" width="52" height="28" rx="14" fill="#18221b" stroke="#2a392e"/><text x="474" y="679" text-anchor="middle" fill="#b9ff66">POO</text><rect x="510" y="660" width="122" height="28" rx="14" fill="#101712" stroke="#2a392e"/><text x="571" y="679" text-anchor="middle" fill="#91a196">Regras de negócio</text><rect x="642" y="660" width="62" height="28" rx="14" fill="#101712" stroke="#2a392e"/><text x="673" y="679" text-anchor="middle" fill="#91a196">Testes</text></g>
+</svg>
