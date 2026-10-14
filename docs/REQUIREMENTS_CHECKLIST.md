@@ -34,10 +34,10 @@
 
 | Item | Status |
 |---|---|
-| Repositório GitHub | ✅ Criado pelo autor |
+| Repositório GitHub | ✅ |
 | README inicial/final | ✅ |
-| Wireframes de média fidelidade | ✅ Arquivos SVG |
-| Wireframes no Figma | ✅ Importados e link compartilhável adicionado ao README |
+| Wireframes de média fidelidade | ✅ |
+| Wireframes no Figma | ✅ |
 | Protótipo inicial do front-end | ✅ |
 | Navegação | ✅ |
 | Cabeçalho, rodapé e área de conteúdo | ✅ |
@@ -62,17 +62,16 @@
 
 | Item | Status |
 |---|---|
-| Deploy completo | ⏳ Será feito pelo autor na Vercel |
+| Deploy completo | ✅ Vercel |
 | Ajustes visuais e de usabilidade | ✅ |
 | Imagens dos projetos | ✅ |
 | README final | ✅ |
 | Tecnologias utilizadas | ✅ |
 | Instruções de uso e desenvolvimento | ✅ |
-| Link para o site publicado | ⏳ Inserir após deploy |
+| Link para o site publicado | ✅ https://portfolio-profissional-omega-blond.vercel.app/ |
 
-## Pendências externas para 100% literal do enunciado
+## Situação final
 
-1. **LinkedIn:** fornecer a URL real do perfil e adicionar ao bloco de contatos.
-2. **Vercel:** fazer o deploy e adicionar a URL final ao README.
+O projeto está publicado, o README contém o link de produção e o protótipo do Figma está vinculado.
 
-Nenhuma das pendências restantes exige alteração estrutural no projeto.
+**Único item ainda pendente para ficar 100% literal em relação aos exemplos de contato do enunciado:** adicionar o LinkedIn real do autor, caso exista e seja desejado. O perfil não foi inventado porque a URL não foi informada.
