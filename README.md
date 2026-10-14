@@ -1,8 +1,8 @@
 # Portfólio Profissional — Bernardo Machado
 
-> Portfólio acadêmico e profissional desenvolvido para o **Laboratório 01 de Desenvolvimento e Integração de Aplicações Web (DIAW)** da PUC Minas. O projeto apresenta formação, interesses, projetos, experiências e canais de contato em uma interface responsiva, acessível e preparada para deploy na Vercel.
+> Portfólio acadêmico e profissional desenvolvido para o **Laboratório 01 de Desenvolvimento e Integração de Aplicações Web (DIAW)** da PUC Minas. O projeto apresenta formação, interesses, projetos, experiências e canais de contato em uma interface responsiva, acessível e publicada na Vercel.
 
-![Status](https://img.shields.io/badge/status-pronto%20para%20deploy-b9ff66?style=for-the-badge&labelColor=071018)
+![Status](https://img.shields.io/badge/status-publicado-b9ff66?style=for-the-badge&labelColor=071018)
 ![HTML](https://img.shields.io/badge/HTML5-sem%C3%A2ntico-071018?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-responsivo-071018?style=for-the-badge&logo=css)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-071018?style=for-the-badge&logo=javascript)
@@ -33,12 +33,12 @@
 ## Links úteis
 
 - **Repositório:** https://github.com/BernardoRibeiro7/portfolio-profissional
-- **Site publicado:** `ADICIONE_AQUI_O_LINK_DA_VERCEL_APÓS_O_DEPLOY`
+- **Site publicado:** https://portfolio-profissional-omega-blond.vercel.app/
 - **Protótipo no Figma:** https://www.figma.com/design/Ntrx6bs4vuNTF4XjJOJSbd/LAB01---Portf%C3%B3lio-Profissional---Bernardo-Machado?node-id=0-1&t=PpDM1ML3ZNzTKsk0-1
 - **Instruções de deploy:** [`DEPLOY_VERCEL.md`](DEPLOY_VERCEL.md)
 - **Importação dos wireframes no Figma:** [`docs/FIGMA_IMPORT.md`](docs/FIGMA_IMPORT.md)
 
-> O deploy não foi executado neste pacote porque será realizado pelo próprio autor na Vercel.
+> O projeto está publicado e funcional na Vercel.
 
 ---
 
@@ -102,7 +102,7 @@ O portfólio contém:
 - menu e navegação entre seções;
 - layout principal com cabeçalho, conteúdo e rodapé;
 - wireframes de média fidelidade em `docs/wireframes/`;
-- board único pronto para importação no Figma;
+- board único importado no Figma;
 - descrição, arquitetura e organização no README.
 
 ### Sprint 02 — Funcionalidades principais
@@ -121,10 +121,9 @@ O portfólio contém:
 - imagens dos projetos;
 - modal de visualização;
 - documentação final;
-- configuração de deploy pronta para Vercel;
+- deploy completo na Vercel;
+- link público inserido no README;
 - validações locais concluídas.
-
-O único passo externo desta Sprint é publicar o repositório na Vercel e colar o link gerado neste README.
 
 ---
 
@@ -236,19 +235,19 @@ Sem `RESEND_API_KEY`, o formulário permanece utilizável pelo fallback do aplic
 
 ## Deploy na Vercel
 
-O projeto já contém `vercel.json` e a função serverless em `api/contact.js`.
+O projeto está publicado na Vercel e integrado ao repositório GitHub.
 
-Passos resumidos:
+**URL de produção:** https://portfolio-profissional-omega-blond.vercel.app/
 
-1. envie o conteúdo do projeto para `BernardoRibeiro7/portfolio-profissional`;
-2. abra a Vercel e escolha **Add New → Project**;
-3. importe o repositório;
-4. mantenha o diretório raiz do projeto;
-5. use **Other** como Framework Preset, se necessário;
-6. clique em **Deploy**;
-7. opcionalmente configure `RESEND_API_KEY`, `CONTACT_TO_EMAIL` e `CONTACT_FROM_EMAIL`;
-8. faça redeploy se adicionar variáveis;
-9. copie a URL final e substitua `ADICIONE_AQUI_O_LINK_DA_VERCEL_APÓS_O_DEPLOY` neste README.
+O build estático é gerado pelo script `build.js` na pasta `dist/`, configurada como diretório de saída em `vercel.json`. A função serverless de contato permanece em `api/contact.js`.
+
+Para futuras alterações, basta fazer `git push` na branch `main`; a Vercel executará um novo deploy automaticamente.
+
+Variáveis opcionais para envio direto por e-mail:
+
+- `RESEND_API_KEY`
+- `CONTACT_TO_EMAIL`
+- `CONTACT_FROM_EMAIL`
 
 Detalhes: [`DEPLOY_VERCEL.md`](DEPLOY_VERCEL.md).
 
@@ -292,6 +291,7 @@ portfolio-profissional/
 │       └── portfolio.png / .svg
 ├── .env.example
 ├── .gitignore
+├── build.js
 ├── DEPLOY_VERCEL.md
 ├── index.html
 ├── LICENSE
@@ -304,6 +304,10 @@ portfolio-profissional/
 ---
 
 ## Demonstração
+
+### Site publicado
+
+https://portfolio-profissional-omega-blond.vercel.app/
 
 ### Desktop
 
@@ -346,7 +350,8 @@ O comando valida:
 - `server.js`;
 - `api/contact.js`;
 - `lib/contact.js`;
-- `assets/js/main.js`.
+- `assets/js/main.js`;
+- `build.js`.
 
 ### Testes locais realizados
 
@@ -362,7 +367,8 @@ O comando valida:
 - layout desktop e mobile;
 - validação do endpoint de contato com entrada inválida;
 - carregamento do fallback quando o serviço de e-mail não está configurado;
-- verificação de sintaxe dos arquivos JavaScript.
+- verificação de sintaxe dos arquivos JavaScript;
+- deploy de produção concluído na Vercel.
 
 ---
 
@@ -370,14 +376,9 @@ O comando valida:
 
 O checklist detalhado está em [`docs/REQUIREMENTS_CHECKLIST.md`](docs/REQUIREMENTS_CHECKLIST.md).
 
-**Estado do código:** todos os requisitos implementáveis dentro do repositório estão concluídos.
+**Estado do projeto:** código, Figma, GitHub e deploy na Vercel estão concluídos.
 
-**Passos externos / dados restantes para 100% literal do enunciado:**
-
-1. informar a URL real do LinkedIn para adicionar ao bloco de contato;
-2. publicar na Vercel e adicionar a URL final ao README.
-
-O protótipo no Figma já foi criado e vinculado ao README. O LinkedIn não foi inventado porque o perfil real não foi informado. O deploy na Vercel será realizado pelo próprio autor.
+**Único dado restante para ficar 100% literal em relação ao bloco de contatos do enunciado:** a URL real do LinkedIn do autor. O perfil não foi inventado porque a URL não foi informada.
 
 ---
 
